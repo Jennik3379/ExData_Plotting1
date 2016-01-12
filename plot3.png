@@ -30,4 +30,4 @@ plot(strptime(pwrcons$Timestamp, "%d/%m/%Y %H:%M:%S"), pwrcons$Voltage, type = "
 plot(strptime(pwrcons$Timestamp, "%d/%m/%Y %H:%M:%S"), pwrcons$Global_reactive_power, type = "l", 
      xlab = "datetime", ylab = "Global_reactive_power")
      
-     p
+     
